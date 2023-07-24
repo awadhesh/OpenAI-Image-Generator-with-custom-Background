@@ -5,7 +5,6 @@ require __DIR__ . '/vendor/autoload.php'; // remove this line if you use a PHP F
 use Orhanerday\OpenAi\OpenAi;
 
 $open_ai_key = getenv('OPENAI_API_KEY');
-$open_ai_key = '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';
 $open_ai = new OpenAi($open_ai_key);
 $prompt =$_REQUEST['prompt'];
 $background =$_REQUEST['background'];
